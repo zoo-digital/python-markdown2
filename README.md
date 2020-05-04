@@ -1,3 +1,18 @@
+# Important
+
+This fork contains some specific XSS fixes not yet released.  In particular it fixes
+[CVE-2020-11888](https://nvd.nist.gov/vuln/detail/CVE-2020-11888)
+
+To temporarily use this version instead of the standard install, you should
+`pip install git+https://github.com/zoo-digital/python-markdown2@zoo-fixes` anywhere you would 
+normally `pip install markdown2`
+
+Do this with care as this repository may not keep up to date with other fixes.
+
+Please revert to the main distribution as soon as it is safe to do so.
+
+### Original readme follows.
+
 Markdown is a light text markup format and a processor to convert that to HTML.
 The originator describes it as follows:
 
